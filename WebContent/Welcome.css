@@ -9,22 +9,27 @@ body{
 .grid-container{
 	display: grid;
 	grid-template: repeat(7, 1fr) / repeat(7, 1fr);
-	width:80%;
+
 }
 
 .navBar{
-	grid-area: 1/2/2/span 7;
+	grid-area: 1/1/2/span 7;
 	font-size: 2em;
 	background-color: black;
+	width: 100%;
+	position: fixed;
+	
 }
 
-.navBar a{
-	margin-left: 10px;
-	margin-right: 10px;
+.navBar .spaNav{
+	position: relative;
+	left: 25%;
+	
+    
 }
 
 .row1{
-	grid-area: 3/2/4/span 7;
+	grid-area: 3/2/4/span 5;
 	font-size: 3em;
 	color: white;
 	background-color: black;
