@@ -1,5 +1,10 @@
 @CHARSET "ISO-8859-1";
 
+body{
+	background-image: url("HD-Image-Backgrounds-002.jpg");
+	background-size: cover;
+}
+
 .grid-container{
 	display: grid;
 }
