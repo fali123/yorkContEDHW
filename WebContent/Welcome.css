@@ -3,8 +3,29 @@
 body{
 	background-image: url("HD-Image-Backgrounds-002.jpg");
 	background-size: cover;
+
 }
 
 .grid-container{
 	display: grid;
+	grid-template: repeat(7, 1fr) / repeat(7, 1fr);
+	width:80%;
+}
+
+.navBar{
+	grid-area: 1/2/2/span 7;
+	font-size: 2em;
+	background-color: black;
+}
+
+.navBar a{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.row1{
+	grid-area: 3/2/4/span 7;
+	font-size: 3em;
+	color: white;
+	background-color: black;
 }
