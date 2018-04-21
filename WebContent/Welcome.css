@@ -9,7 +9,10 @@ body{
 .grid-container{
 	display: grid;
 	grid-template: repeat(7, 1fr) / repeat(7, 1fr);
+}
 
+.fareed{
+	font-style: Impact;
 }
 
 .navBar{
