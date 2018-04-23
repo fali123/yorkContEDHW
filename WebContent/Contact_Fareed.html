@@ -20,12 +20,8 @@
 
 </head>
 <body>
-	<div class="grid-container">
-		<header></header>
-		<div class="row1">
-			<p>Contact Fareed</p>
-			</div>
-		<nav class="navBar">
+	<div>
+	<nav class="navBar">
 			<span class="fareed" style="font-family:Impact, Charcoal, sans-serif; color:white;">FAREED ALI</span>
 			<span class="spaNav"> 
 			<a href="./Welcome.html"><button type="button" class="btn btn-info">Home</button></a> 
@@ -35,7 +31,42 @@
 			<a href="./Fareed_News.html"><button type="button" class="btn btn-info">News</button></a> 
 			<a href="./Contact_Fareed.html"><button type="button" class="btn btn-info">Contact</button></a></span>
 		</nav>
-		<footer></footer>
+	</div>
+	<div class="grid-container">
+		<div class="row1">
+			<p>Contact Fareed</p>
+			</div>
+
+		<div class="row2">
+			<div class="message">
+	  			<form action="action_page.php">
+	  				<div>
+					<label for="fname">First Name</label>
+		    		<input type="text" id="fname" name="firstname" placeholder="Your first name..">
+					</div>
+					
+					<div>
+					<label for="lname">Last Name</label>
+		    		<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+					</div>
+					
+					<div>
+					<label for="email">Email</label>
+		    		<input type="text" id="email" name="Email_addy" placeholder="Your email..">
+					</div>
+					
+					<div>
+					<label for="subject">Subject</label>
+		    		<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+					</div>
+					
+					<div>
+		    		<input type="submit" value="Submit">
+					</div>
+					
+	  			</form>
+			</div>
+		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

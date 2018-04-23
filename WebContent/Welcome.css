@@ -2,13 +2,44 @@
 
 body{
 	background-image: url("HD-Image-Backgrounds-002.jpg");
-	background-size: cover;
+	
+}
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4464a3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0038a8;
+}
+
+.message {
+    border-radius: 5px;
+    background-color: #170f54;
+    padding: 20px;
+    color: white;
 }
 
 .grid-container{
+	margin:60px auto 0;
 	display: grid;
-	grid-template: repeat(7, 1fr) / repeat(7, 1fr);
+	grid-template: repeat(7, auto) / repeat(7, 1fr);
 }
 
 .fareed{
@@ -16,12 +47,12 @@ body{
 }
 
 .navBar{
-	grid-area: 1/1/2/span 7;
+	top:0;
+	height:auto;
 	font-size: 2em;
 	background-color: black;
 	width: 100%;
 	position: fixed;
-	
 }
 
 .navBar .spaNav{
@@ -32,8 +63,14 @@ body{
 }
 
 .row1{
-	grid-area: 3/2/4/span 5;
+	grid-area: 2/2/3/span 5;
 	font-size: 3em;
 	color: white;
 	background-color: black;
 }
+
+.row2{
+	grid-area: 3/2/4/span 5;
+}
+
+
