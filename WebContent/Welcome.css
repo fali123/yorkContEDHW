@@ -73,4 +73,30 @@ input[type=submit]:hover {
 	grid-area: 3/2/4/span 5;
 }
 
+.fareed_gallery {
+	grid-area: 3/2/auto/auto;
+}
+
+div.fareed_gallery {
+    margin: 5px;
+    border: 1px solid #001838;
+    float: left;
+    width: 180px;
+}
+
+div.fareed_gallery:hover {
+    border: 1px solid #777;
+}
+
+div.fareed_gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #190c35;
+    color: gold;
+}
 
